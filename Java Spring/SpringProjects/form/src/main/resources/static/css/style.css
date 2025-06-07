@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+}
+
+h1 {
+  font-size: 5px;
+  color: aqua;
+  border: 2px solid black;
+  border-radius: 5px;
+}
