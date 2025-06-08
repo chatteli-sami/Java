@@ -1,0 +1,76 @@
+/* Global Styles */
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(90deg, #1e3c72, #2a5298);
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Gold Count */
+.gold-count {
+  font-size: 32px;
+  font-weight: bold;
+  color: gold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+button {
+  background: #f39c12;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background: #e67e22;
+  transform: scale(1.05);
+}
+
+/* Forms */
+form {
+  display: inline-block;
+  margin: 10px;
+}
+
+/* Activity Log */
+.activities {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.activities p {
+  font-size: 16px;
+  font-weight: normal;
+  padding: 5px;
+  border-left: 4px solid #f39c12;
+  margin-bottom: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.activities p:hover {
+  background: rgba(255, 255, 255, 0.2);
+  padding-left: 10px;
+}
+
+/* Prison Page */
+.warning {
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+}
