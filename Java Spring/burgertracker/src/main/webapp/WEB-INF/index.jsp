@@ -19,6 +19,7 @@ uri="http://www.springframework.org/tags/form" %> <%@ page isErrorPage="true" %>
           <th>Burger Name</th>
           <th>Restaurant Name</th>
           <th>Rating (out of 5)</th>
+          <th>Action</th>
         </tr>
       </thead>
       <tbody>
@@ -27,6 +28,7 @@ uri="http://www.springframework.org/tags/form" %> <%@ page isErrorPage="true" %>
             <td><c:out value="${burger.name}" /></td>
             <td><c:out value="${burger.restaurant}" /></td>
             <td><c:out value="${burger.rating}" /></td>
+            <td><a href="/edit/${burger.id}">edit</a></td>
           </tr>
         </c:forEach>
       </tbody>
