@@ -1,0 +1,74 @@
+/* General page style */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef2f3;
+  margin: 0;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Form titles and headers */
+h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Table layout styling */
+table {
+  margin: 0 auto 30px;
+  background-color: #fff;
+  border-collapse: collapse;
+  width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+td {
+  padding: 12px;
+  text-align: left;
+  font-size: 14px;
+}
+
+td[colspan="2"] {
+  text-align: center;
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Input fields */
+.input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Submit button */
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Error messages */
+.text-danger {
+  color: red;
+  font-size: 12px;
+}
