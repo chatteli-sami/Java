@@ -1,0 +1,29 @@
+/* Textarea styling */
+textarea.form-control {
+  min-height: 100px;
+  resize: vertical;
+  padding: 0.6rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+  transition: border 0.3s ease;
+}
+
+textarea.form-control:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+/* Error message styling */
+.error {
+  color: #d9534f;
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+  display: block;
+}
+
+/* Back navigation link */
+a[href="/home"] {
+  margin-bottom: 1.5rem;
+  display: inline-block;
+}
